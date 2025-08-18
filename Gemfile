@@ -6,13 +6,13 @@ ruby '>= 3.1.0'
 gem 'propshaft'
 gem 'puma', '~> 6.3'
 gem 'rack', '~> 2.2.7'
-gem 'rails', '~> 7.1.1'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'thor', '~> 1.2'
 
 gem 'dotenv'
 gem 'haml-rails', '~>2.0'
 gem 'pg', '~> 1.5'
-gem 'pghero'
+gem 'pghero', '>= 3.6.1'
 
 gem 'aws-sdk-s3', '~> 1.123', require: false
 gem 'blurhash', '~> 0.1'
@@ -45,7 +45,7 @@ gem 'omniauth-saml', '~> 2.0'
 
 gem 'color_diff', '~> 0.1'
 gem 'csv', '~> 3.2'
-gem 'discard', '~> 1.2'
+gem 'discard', '~> 1.4', '>= 1.4.0'
 gem 'doorkeeper', '~> 5.6'
 gem 'ed25519', '~> 1.3'
 gem 'fast_blank', '~> 1.0'
@@ -80,7 +80,7 @@ gem 'redis-namespace', '~> 1.10'
 gem 'rqrcode', '~> 2.2'
 gem 'ruby-progressbar', '~> 1.13'
 gem 'sanitize', '~> 6.0'
-gem 'scenic', '~> 1.7'
+gem 'scenic', '~> 1.9', '>= 1.9.0'
 gem 'sidekiq', '~> 6.5'
 gem 'sidekiq-bulk', '~> 0.2.0'
 gem 'sidekiq-scheduler', '~> 5.0'
@@ -88,7 +88,7 @@ gem 'sidekiq-unique-jobs', '~> 7.1'
 gem 'simple_form', '~> 5.2'
 gem 'simple-navigation', '~> 4.4'
 gem 'stoplight', '~> 4.1'
-gem 'strong_migrations'
+gem 'strong_migrations', '>= 2.0.1'
 gem 'tty-prompt', '~> 0.23', require: false
 gem 'twitter-text', '~> 3.1.0'
 gem 'tzinfo-data', '~> 1.2023'
@@ -141,7 +141,7 @@ group :test do
   gem 'selenium-webdriver'
 
   # Used to reset the database between system tests
-  gem 'database_cleaner-active_record'
+  gem 'database_cleaner-active_record', '>= 2.2.1'
 
   # Used to mock environment variables
   gem 'climate_control'

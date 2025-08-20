@@ -192,7 +192,7 @@
     "stylelint": "^16.0.2",
     "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^5.0.4",
-    "webpack-dev-server": "^3.11.3"
+    "webpack-dev-server": "^5.2.1"
   },
   "resolutions": {
     "kind-of": "^6.0.3",

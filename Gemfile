@@ -165,12 +165,12 @@ end
 
 group :development do
   # Code linting CLI and plugins
-  gem 'rubocop', require: false
-  gem 'rubocop-capybara', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
-  gem 'rubocop-rspec_rails', require: false
+  gem 'rubocop', '>= 1.66.0', require: false
+  gem 'rubocop-capybara', '>= 2.22.0', require: false
+  gem 'rubocop-performance', '>= 1.22.0', require: false
+  gem 'rubocop-rails', '>= 2.26.0', require: false
+  gem 'rubocop-rspec', '>= 3.0.4', require: false
+  gem 'rubocop-rspec_rails', '>= 2.31.0', require: false
 
   # Annotates modules with schema
   gem 'annotate', '~> 3.2'
@@ -188,7 +188,7 @@ group :development do
   gem 'bundler-audit', '~> 0.9', require: false
 
   # Linter CLI for HAML files
-  gem 'haml_lint', require: false
+  gem 'haml_lint', '>= 0.59.0', require: false
 
   # Validate missing i18n keys
   gem 'i18n-tasks', '~> 1.0', require: false

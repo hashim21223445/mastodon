@@ -627,8 +627,8 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (2.2.17)
-    rack-attack (6.7.0)
+    rack (2.2.20)
+    rack-attack (6.8.0)
       rack (>= 1.0, < 4)
     rack-cors (2.0.2)
       rack (>= 2.0.0)
@@ -1026,7 +1026,7 @@ DEPENDENCIES
   puma (~> 6.3)
   pundit (~> 2.3)
   rack (~> 2.2.7)
-  rack-attack (~> 6.6)
+  rack-attack (~> 6.8, >= 6.8.0)
   rack-cors (~> 2.0)
   rack-test (~> 2.1)
   rails (~> 7.1.5, >= 7.1.5.2)
@@ -1079,4 +1079,4 @@ RUBY VERSION
    ruby 3.3.2p78
 
 BUNDLED WITH
-   2.3.26
+   2.3.27

@@ -28,7 +28,7 @@ gem 'bootsnap', '~> 1.18.0', require: false
 gem 'browser', '< 6' # https://github.com/fnando/browser/issues/543
 gem 'charlock_holmes', '~> 0.7.7'
 gem 'chewy', '~> 7.3'
-gem 'devise', '~> 4.9'
+gem 'devise', '~> 5.0', '>= 5.0.0'
 gem 'devise-two-factor'
 
 group :pam_authentication, optional: true do
